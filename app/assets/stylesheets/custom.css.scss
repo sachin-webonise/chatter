@@ -1,9 +1,12 @@
 @import "bootstrap";
 
+<<<<<<< HEAD
 /* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
 
+=======
+>>>>>>> static-pages
 /* universal */
 
 html {
@@ -24,9 +27,16 @@ textarea {
 
 .center {
   text-align: center;
+<<<<<<< HEAD
   h1 {
     margin-bottom: 10px;
   }
+=======
+}
+
+.center h1 {
+  margin-bottom: 10px;
+>>>>>>> static-pages
 }
 
 /* typography */
@@ -48,7 +58,11 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
+<<<<<<< HEAD
   color: $grayLight;
+=======
+  color: #999;
+>>>>>>> static-pages
 }
 
 p {
@@ -56,19 +70,27 @@ p {
   line-height: 1.7em;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> static-pages
 /* header */
 
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
+<<<<<<< HEAD
   color: white;
+=======
+  color: #ee82ee;
+>>>>>>> static-pages
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
   line-height: 1;
+<<<<<<< HEAD
   &:hover {
     color: white;
     text-decoration: none;
@@ -100,3 +122,12 @@ footer {
     }
   }
 }
+=======
+}
+
+#logo:hover {
+  color: #ffff00;
+  text-decoration: none;
+}
+
+>>>>>>> static-pages
